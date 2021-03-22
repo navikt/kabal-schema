@@ -4,7 +4,6 @@ on:
     branches:
       - master
     paths:
-      - 'src/main/avro/klage_oversending_klageinstans.avsc'
       - 'gradle.properties'
 
 jobs:
