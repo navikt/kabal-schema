@@ -1,14 +1,14 @@
-val avroVersion = "1.10.1"
+val avroVersion = "1.10.2"
 
 repositories {
     mavenCentral()
-    maven(url = "https://dl.bintray.com/gradle/gradle-plugins")
+    gradlePluginPortal()
     maven(url = "http://packages.confluent.io/maven/")
 }
 
 plugins {
     `maven-publish`
-    id("com.commercehub.gradle.plugin.avro") version "0.9.1"
+    id("com.github.davidmc24.gradle.plugin.avro") version "1.0.0"
 }
 
 dependencies {

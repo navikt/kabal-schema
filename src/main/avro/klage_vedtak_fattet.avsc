@@ -12,6 +12,23 @@
       "type": "string"
     },
     {
+      "name": "vedtak",
+      "type": {
+        "type": "enum",
+        "name": "Vedtak",
+        "symbols": [
+          "TRUKKET",
+          "RETUR",
+          "OPPHEVET",
+          "MEDHOD",
+          "DELVIS_MEDHOLD",
+          "OPPRETTHOLDT",
+          "UGUNST",
+          "AVVIST"
+        ]
+      }
+    },
+    {
       "name": "vedtakJoarkReferanse",
       "type": "string"
     }
