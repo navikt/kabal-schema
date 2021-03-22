@@ -1,0 +1,19 @@
+{
+  "namespace": "no.nav.kabal.avro",
+  "type": "record",
+  "name": "KlagevedtakFattet",
+  "fields": [
+    {
+      "name": "uuid",
+      "type": "string"
+    },
+    {
+      "name": "tema",
+      "type": "string"
+    },
+    {
+      "name": "vedtakJoarkReferanse",
+      "type": "string"
+    }
+  ]
+}

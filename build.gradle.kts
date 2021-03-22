@@ -1,4 +1,4 @@
-val avroVersion = "1.10.0"
+val avroVersion = "1.10.1"
 
 repositories {
     mavenCentral()
